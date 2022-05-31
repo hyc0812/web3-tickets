@@ -1,4 +1,5 @@
-# Play with web3-tickets
+# Play with web3-tickets 
+#### Blockchain dApp demo project
 
 - Using Ganache UI (RPC Server is: HTTP://127.0.0.1:8545). Import the first account to MetaMask.
 - Deploy the contract:
