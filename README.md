@@ -49,5 +49,6 @@ npm install --save-dev parcel
 ```
 
 ### References
+Original auther:
 https://www.youtube.com/watch?v=FYhZPovlGZQ
 https://www.youtube.com/watch?v=JXa_Y-17Oj4
