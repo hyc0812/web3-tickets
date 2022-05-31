@@ -14,3 +14,6 @@ truffle test test/Tickets.js
 ---
 ### MEMO
 ```linux
+mkdir client
+cd client
+npm init -f
