@@ -46,3 +46,7 @@ cd client
 npm init -f
 npm install --save-dev parcel
 ```
+
+### References
+https://www.youtube.com/watch?v=FYhZPovlGZQ
+https://www.youtube.com/watch?v=JXa_Y-17Oj4
