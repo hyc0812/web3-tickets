@@ -30,7 +30,7 @@ Ganache Back-end console with current contract balance:
 
 <img src="https://github.com/hyc0812/web3-tickets/blob/master/pics/back_end_display_2.png" alt="drawing" width="600"/>
 
-current transaction information:
+Current transaction information:
 
 <img src="https://github.com/hyc0812/web3-tickets/blob/master/pics/back_end_display_1.png" alt="drawing" width="600"/>
 
@@ -38,7 +38,7 @@ current transaction information:
 
 ### MEMO
 
-commands used for creating client directory and dependencies:
+Commands used for creating client directory and dependencies:
 
 ```linux
 mkdir client
