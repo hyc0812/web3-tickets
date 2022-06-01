@@ -33,6 +33,7 @@ const buyTicket = async (ticket) => {
   await contract.methods
     .buyTicket(ticket.id)
     .send({ from: account, value: ticket.price });
+  await refreshTickets();
 };
 
 const refreshTickets = async () => {
