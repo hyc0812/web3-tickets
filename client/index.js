@@ -14,7 +14,7 @@ const CONTRACT_ADDRESS =
 const CONTRACT_ABI = configuration.abi;
 
 const web3 = new Web3(
-  Web3.givenProvider || 'http://127.0.0.1:7545'
+  Web3.givenProvider || 'http://127.0.0.1:8545'
 );
 const contract = new web3.eth.Contract(
   CONTRACT_ABI,
@@ -59,8 +59,15 @@ const refreshTickets = async () => {
   }
 };
 
+// const main = async () => {
+//   const accounts = await web3.eth.requestAccounts();
+//   account = accounts[0];
+//   accountEl.innerText = account;
+//   await refreshTickets();
+// };
+
 const main = async () => {
-  const accounts = await web3.eth.requestAccounts();
+  const accounts = await web3.eth.getAccounts();
   account = accounts[0];
   accountEl.innerText = account;
   await refreshTickets();
