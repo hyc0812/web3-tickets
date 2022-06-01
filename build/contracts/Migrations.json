@@ -2311,12 +2311,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xBc127ec6ABcfE8F0f55c100E4ddA753Ed174E856",
-      "transactionHash": "0xc4884b877db98ce790f43aa8ced5ce1f5613387824495e9cd2045e80377e1117"
+      "address": "0x9F976F0BC5c31E5F7f37B6168a1ed4c5d12081eF",
+      "transactionHash": "0xe582788b40248ca90b40f75a44dff645a8362de42497bdd627baf9da14d9bdc4"
     }
   },
   "schemaVersion": "3.4.6",
-  "updatedAt": "2022-05-31T16:28:05.763Z",
+  "updatedAt": "2022-06-01T16:54:38.647Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
