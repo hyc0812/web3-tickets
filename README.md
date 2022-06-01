@@ -13,10 +13,10 @@ truffle test test/Tickets.js
 ```
 <img src="https://github.com/hyc0812/web3-tickets/blob/master/pics/related_with_test_result.png" alt="drawing" width="580"/>
 
-- Install web3 library and run the project front end:
+- Install all the dependencies that was registered in the package.json (including web3, parcel, bootstrap, etc..) and run the project:
 ```linux
 cd client
-npm install --save-dev parcel
+npm install
 npm run start
 ```
 Finally, connect your current account to the localhost server
