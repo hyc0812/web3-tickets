@@ -60,18 +60,18 @@ const refreshTickets = async () => {
   }
 };
 
-// const main = async () => {
-//   const accounts = await web3.eth.requestAccounts();
-//   account = accounts[0];
-//   accountEl.innerText = account;
-//   await refreshTickets();
-// };
-
 const main = async () => {
-  const accounts = await web3.eth.getAccounts();
+  const accounts = await web3.eth.requestAccounts();
   account = accounts[0];
   accountEl.innerText = account;
   await refreshTickets();
 };
+
+// const main = async () => {
+//   const accounts = await web3.eth.getAccounts();
+//   account = accounts[0];
+//   accountEl.innerText = account;
+//   await refreshTickets();
+// };
 
 main();
