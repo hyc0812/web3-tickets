@@ -46,6 +46,7 @@ mkdir client
 cd client
 npm init -f
 npm install --save-dev parcel
+npm install --save web3 bootstrap
 ```
 
 ### References
