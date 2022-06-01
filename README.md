@@ -49,6 +49,13 @@ npm install --save-dev parcel
 npm install --save web3 bootstrap
 ```
 
+**REMINDER**: If reboot and reconnect the Ganache UI, reinstall npm dependencies is needed:
+```linux
+rm -rf node_modules
+npm install
+npm run start
+```
+
 ### References
 Original auther:
 https://www.youtube.com/watch?v=FYhZPovlGZQ
