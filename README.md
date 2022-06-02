@@ -49,6 +49,29 @@ npm install --save-dev parcel
 npm install --save web3 bootstrap
 ```
 
+Connect to MetaMask using HTML & JavaScript
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Test</title>
+</head>
+<body>
+    <script>
+        async function connect() {
+            if ( typeof window.ethereum !== "undefined") {
+                ethereum.request({method: "eth_requestAccounts"});
+            }
+        }
+    </script>
+    <button id="connectButton" onclick="connect()">Connect!</button>
+</body>
+</html>
+```
+
 **REMINDER**: If reboot and reconnect the Ganache UI, reinstalling npm dependencies is needed:
 ```linux
 rm -rf node_modules
